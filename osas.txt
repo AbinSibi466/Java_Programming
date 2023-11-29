@@ -1,0 +1,37 @@
+Kernel Mode: The Heart of the Computer
+The 'Kernel' in Windows is like the heart of your computer. It's the boss in charge of crucial stuff, like making sure the computer's brain (CPU), memory, and all the hardware gadgets play nicely together. This boss has a few teams within it to keep things organized.
+
+Process Manager: One of the teams in the Kernel is like the manager of a work crew. It starts and stops tasks, keeps them in line, and helps them talk to each other. It's basically the organizer of the computer's tasks.
+Memory Manager: Imagine this team as the keeper of the computer's memory. It ensures that every task gets the right amount of memory to work with, kind of like serving portions in a restaurant.
+I/O Manager: This team handles all the input and output stuff. It's like a communication expert between hardware and software, making sure everything runs smoothly.
+Security Reference Monitor: Keeping Your Computer Safe
+The 'Security Reference Monitor' is like the security guard for your computer. It's in charge of enforcing rules to keep the computer secure and only lets the right people access certain things. Think of it as a bouncer at a club, checking IDs and making sure everyone behaves.
+
+HAL (Hardware Abstraction Layer): The Translator
+HAL, which stands for 'Hardware Abstraction Layer,' is like a super-smart translator. It helps the Kernel understand the different types of computer parts without getting lost in translation. This way, Windows can run on all sorts of computers without needing a complete makeover each time.
+
+Executive: The Big Coordinator
+The 'Executive' is the boss of all the services on your computer. It's like the coordinator that manages all the apps and features, making sure everything runs smoothly. When you open an app, the Executive is the one who says, "Okay, time to start working!"
+
+Device Drivers: The Messengers
+Device drivers are like the messengers who help the Kernel and the hardware gadgets talk to each other. They ensure that the boss (Kernel) and the gadgets understand each other's language and can work together smoothly.
+
+User Mode: Where Your Apps Hang Out
+Imagine 'User Mode' as a special place where your apps hang out and play. Each app has its own space and can't mess with other apps or the boss (Kernel). If an app wants to do something special, like opening a file or sending a message, it has to ask the boss politely.
+
+System Calls: The Special Requests
+'System Calls' are like the special requests you make to the boss. When an app wants to do something that's usually reserved for the boss (Kernel), it makes a system call. The boss then checks if it's a good idea and helps the app get what it wants, but it keeps everything organized and safe.
+
+Recent Update: Windows 11's New Tricks
+Windows 11 is like a cool update for your computer. It didn't change how the computer's heart (Kernel) works, but it made everything look cooler and work better. It's like getting a fresh look with organized virtual desktops and features like Snap Layouts and Snap Groups. Plus, it's better for playing games and has widgets for quick info. Windows 11 also beefed up security with things like TPM 2.0 and Secure Boot, so your computer is like a fortress against bad stuff.
+
+In simple words, the computer boss (Kernel) and its teams keep everything in order. The User Mode is where your apps play, and they need to ask nicely (System Calls) for things. Windows 11 made your computer look better and run smoother, like giving it a fancy new outfit while keeping it super safe."
+
+
+
+
+Linkers and loaders are like the behind-the-scenes crew for software. Linkers take different code pieces and put them together, like assembling a puzzle. They also make sure all the references and memory addresses match up.
+
+Loaders are the ones who get the show started. They take the assembled program and put it in the computer's memory, getting it ready to run. They also manage memory and make sure the program runs smoothly.
+
+So, linkers and loaders work together to ensure your software runs smoothly. Linkers build the program, and loaders make sure it's ready to go. They're the unsung heroes who make sure everything works when you click 'Run.'
