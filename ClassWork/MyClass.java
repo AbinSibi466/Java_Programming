@@ -1,3 +1,4 @@
+package ClassWork;
 public class MyClass {
     private int number;
     private String text;

@@ -1,3 +1,4 @@
+package ClassWork;
 class Inheritance1 {
     String a = "KGF";
 

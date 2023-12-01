@@ -1,3 +1,4 @@
+package ClassWork;
 public class WithParam {
     private int number;
     private String text;

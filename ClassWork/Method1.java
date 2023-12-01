@@ -1,3 +1,4 @@
+package ClassWork;
 public class Method1 extends Method2{
 void display(int c,int d){
 System.out.println("Numbers are:"+c+" and "+d);

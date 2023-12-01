@@ -1,3 +1,4 @@
+package ClassWork;
 class Sequal{
 public static void main(String args[]){
 s1 = "abin";

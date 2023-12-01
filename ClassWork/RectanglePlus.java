@@ -1,3 +1,4 @@
+package ClassWork;
 public class RectanglePlus {
     implements Relatable{
         public int width = 0;
