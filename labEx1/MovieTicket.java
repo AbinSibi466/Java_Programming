@@ -9,12 +9,11 @@ public class MovieTicket {
     private int numberOfTickets;
 
     public MovieTicket() {
-        // Initialize default values
-        movieName = "Unknown";
-        theaterName = "Unknown";
-        showTime = "Unknown";
-        ticketPrice = 0.0;
-        numberOfTickets = 0;
+        movieName = "adfdff";
+        theaterName = "fadff";
+        showTime = "dfdf";
+        ticketPrice = 100.0;
+        numberOfTickets = 2;
     }
 
     public MovieTicket(String movieName, String theaterName, String showTime, double ticketPrice, int numberOfTickets) {
