@@ -30,7 +30,7 @@ public class MovieTicketLambdaCheck {
         Movie joker = new Movie("Joker", 50);
 
         // Lambda expressions to check ticket availability
-        TicketAvailability enoughTicketsCheck = (movie, numberOfTickets) -> movie.getAvailableTickets() >= numberOfTickets;
+        TicketAvailability enoughTicketsCheck = (movie,  numberOfTickets) -> movie.getAvailableTickets() >= numberOfTickets;
         TicketAvailability popularMovieCheck = (movie, numberOfTickets) -> movie.getTitle().equals("Avengers: Endgame");
 
         // Checking ticket availability

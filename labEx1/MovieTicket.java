@@ -23,7 +23,6 @@ public class MovieTicket {
         this.ticketPrice = ticketPrice;
         this.numberOfTickets = numberOfTickets;
     }
-
     public MovieTicket(String movieName, String theaterName) {
         this(movieName, theaterName, "Unknown", 0.0, 0);
     }
